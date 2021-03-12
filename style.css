@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 85px;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+main {
+    background-image: url("bmi.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.blok {
+    float: left;
+    width: 26%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.685);
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    width: 120px;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+#wynik {
+    font-size: 30px;
+    color: tomato;
+}
+
+#info1,
+#info3 {
+    line-height: 135%;
+}
